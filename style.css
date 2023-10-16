@@ -1,0 +1,15 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 10px;
+  }
+
+  th {
+    background-color: #93F6FA;
+    font-size: 1.2rem;
+    text-align: left;
+  }
