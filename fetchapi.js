@@ -35,7 +35,7 @@ async function renderProducts() {
     let suppliers = await getSuppliers();
     let categories = await getCategories();
 
-//   Diğer bir yöntem
+//   Another way to render the supplier and categories lists
 //   let suppliers = await fetch("https://northwind.vercel.app/api/suppliers").then(response => response.json()).catch(error => console.log(error)));
 //   let categories = await fetch("https://northwind.vercel.app/api/categories").then(response => response.json()).catch(error => console.log(error)));
 
